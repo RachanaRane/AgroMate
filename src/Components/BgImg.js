@@ -7,7 +7,7 @@ export default function BgImg() {
     <div className="row">
       <div className="col p-0">
         <img
-          src="https://images.squarespace-cdn.com/content/v1/6479f1b5ce062e6da6b0ab18/f62c1ada-5328-4560-8cf9-abe415d5fc49/image-asset.jpg"
+          src="assets/Cure your crops with our trustable and easy to use AI (1).png"
           className="img-fluid"
           style={{ width: '100%', height: '500px' }}
           alt="Cover"
