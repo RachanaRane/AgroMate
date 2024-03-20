@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Price from './Pages/price';
 import News from './Components/News';
 import Disease from './Pages/Disease';
+import DiseasePredict from './Components/DiseasePredict';
 function App() {
   return (
     <Router>
@@ -19,7 +20,7 @@ function App() {
         <Route path="/" element={<Dashboard/>} />
         <Route path="/price" element={<Price/>} />
         <Route path="/news" element={<News/>} />
-        <Route path="/disease" element={<Disease/>} />
+        <Route path="/disease" element={<DiseasePredict/>} />
       </Routes>
       </div>
     </Router>

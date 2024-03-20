@@ -8,6 +8,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
+
 # Get the API key from environment variables
 API_KEY = os.getenv('API_KEY')
 print("API_KEY:", os.getenv('API_KEY'))
@@ -32,4 +33,5 @@ def get_commodity_prices():
         return jsonify({'error': 'Failed to fetch commodity prices'}), response.status_code
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    
+    app.run(debug=True,port=5000)
